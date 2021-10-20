@@ -33,9 +33,9 @@ spring:
   ### xxl-job, datasource
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 123456
-    url: jdbc:mysql://wuzx.cool:30006/xxl_job?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://mysql.kube-ops.svc.cluster.local:3306/xxl_job?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
     username: root
+    password: 123456
     ### datasource-pool
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
